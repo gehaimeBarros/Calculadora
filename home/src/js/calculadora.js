@@ -39,3 +39,7 @@ function calcular() {
 
     resultado.innerHTML = execute(num1, num2)
 }
+
+function git() {
+    window.open("https://github.com/gehaimeBarros", "_blank");
+}

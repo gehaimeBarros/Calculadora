@@ -8,8 +8,8 @@
     <title>Calculatora | Calcule</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/style.css">
-    <link rel="shortcut icon" href="/img/calcs.PNG">
+    <link rel="stylesheet" href="/home/src/css/style.css">
+    <link rel="shortcut icon" href="/home/src/img/calcs.PNG">
 </head>
 
 <body><br><br><br>
@@ -31,13 +31,13 @@
             <input type="button" class="oper" value="-" onclick="operacao(value)">
             <input type="button" class="num" value="x" onclick="operacao(value)">
             <input type="button" class="oper" value="/" onclick="operacao(value)"><br>
-            <input type="button" class="btn-limpar" value="CE" onclick="limpar()">
-            <input id="verificar" class="btn-result" type="button" value="=" onclick="calcular()"><br>
-            <img src="img/MasterDev.PNG" class="img-calc" alt="">
+            <input type="button" class="btn-limpar" title="Clique para limpar" value="CE" onclick="limpar()">
+            <input id="verificar" class="btn-result" type="button" title="Clique para calcular" value="=" onclick="calcular()"><br>
+            <img src="/home/src/img/MasterDev.PNG" title="Desenvolvedor" onclick="git()" class="img-calc">
         </section>
     </div>
 
-    <script src="/calculadora.js" async defer></script>
+    <script src="/home/src/js/calculadora.js" async defer></script>
 </body>
 
 </html>
