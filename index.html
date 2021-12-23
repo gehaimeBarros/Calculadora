@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculatora | Calcule</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/img/calcs.PNG">
+</head>
+
+<body><br><br><br>
+    <div class="super-calculator">
+        <section id="calculadora">
+            <div type="number" name="resultado" id="resultado"></div>
+            <input type="text" name="intro" id="intro"><br>
+            <input type="button" class="oper" value="1" onclick="numero(1)">
+            <input type="button" class="num" value="2" onclick="numero(2)">
+            <input type="button" class="num" value="3" onclick="numero(3)"><br>
+            <input type="button" class="num" value="4" onclick="numero(4)">
+            <input type="button" class="num" value="5" onclick="numero(5)">
+            <input type="button" class="num" value="6" onclick="numero(6)"><br>
+            <input type="button" class="num" value="7" onclick="numero(7)">
+            <input type="button" class="num" value="8" onclick="numero(8)">
+            <input type="button" class="num" value="9" onclick="numero(9)"><br>
+            <input type="button" class="num" value="0" onclick="numero(0)"><br>
+            <input type="button" class="oper" value="+" onclick="operacao(value)">
+            <input type="button" class="oper" value="-" onclick="operacao(value)">
+            <input type="button" class="num" value="x" onclick="operacao(value)">
+            <input type="button" class="oper" value="/" onclick="operacao(value)"><br>
+            <input type="button" class="btn-limpar" value="CE" onclick="limpar()">
+            <input id="verificar" class="btn-result" type="button" value="=" onclick="calcular()"><br>
+            <img src="img/MasterDev.PNG" class="img-calc" alt="">
+        </section>
+    </div>
+
+    <script src="/calculadora.js" async defer></script>
+</body>
+
+</html>
