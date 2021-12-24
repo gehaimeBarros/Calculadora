@@ -1,55 +1,53 @@
-html,
-body {
-    background-color: rgb(95, 8, 25);
-
-}
 
 h2{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(95, 8, 25);
+    font-size: 28px;
 }
 
 #resultado{
-    border: 1px solid white;
-    width: 200px;
-    height: 30px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 300px;
+    height: 40px;
     margin: auto;
-}
-
-#resultado {
+    background-color: rgb(18, 8, 37);
+    border: 2px solid rgb(67, 59, 134);
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 3px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    cursor: pointer;
+    text-align: center;
+    font-size: 22px;
+
 }
 
 [contentEditable=true]:empty:not(:focus):before{
     content:attr(data-text)
 }
+
 #intro {
-    width: 189px;
+    width: 230px;
     height: 28px;
     border: 2px solid black;
     border-radius: 3px;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
 
 .super-calculator {
-    border: 2px solid black;
-    width: 17rem;
-    height: 390px;
+    border: 2px solid rgb(54, 59, 85);
+    width: 18rem;
+    height: 408px;
     text-align: center;
-    line-height: 31px;
+    line-height: 41px;
     margin: auto;
     border-radius: 4px;
-    background-color: steelblue;
+    background-color: rgb(2, 18, 31);
 }
 
 .oper,
 .num {
-    width: 35px;
-    height: 24px;
+    width: 60px;
+    height: 30px;
     cursor: pointer;
     border: 1px solid white;
 }
@@ -61,8 +59,8 @@ h2{
 }
 
 .btn-result {
-    width: 35px;
-    height: 24px;
+    width: 70px;
+    height: 28px;
     cursor: pointer;
     border: 1px solid white;
 }
@@ -74,8 +72,8 @@ h2{
 }
 
 .btn-limpar {
-    width: 35px;
-    height: 24px;
+    width: 60px;
+    height: 28px;
     cursor: pointer;
     border: 1px solid white;}
 
@@ -87,6 +85,8 @@ h2{
 .img-calc {
     width: 40px;
     cursor: pointer;
-    border: 2px solid rgb(5, 111, 160);
+    border: 2px solid rgb(54, 59, 85);
     border-radius: 2px;
+    margin-left: 14rem;
+    
 }

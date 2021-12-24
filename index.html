@@ -10,13 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/home/src/css/style.css">
     <link rel="shortcut icon" href="/home/src/img/calcs.PNG">
+    <link rel="stylesheet" type="" href="/home/src/css/titulo.css">
+    <link rel="stylesheet" type="" href="/home/src/css/fundo.css">
 </head>
 
 <body><br><br><br>
+    <div class="img-fundo"></div>
     <div class="super-calculator">
+        <h1>Calculadora</h1>
         <section id="calculadora">
-            <div type="number" name="resultado" id="resultado"></div>
-            <input type="text" name="intro" id="intro"><br>
+            <input type="text" name="intro" id="intro"><<br>
             <input type="button" class="oper" value="1" onclick="numero(1)">
             <input type="button" class="num" value="2" onclick="numero(2)">
             <input type="button" class="num" value="3" onclick="numero(3)"><br>
@@ -31,12 +34,13 @@
             <input type="button" class="oper" value="-" onclick="operacao(value)">
             <input type="button" class="num" value="x" onclick="operacao(value)">
             <input type="button" class="oper" value="/" onclick="operacao(value)"><br>
-            <input type="button" class="btn-limpar" title="Clique para limpar" value="CE" onclick="limpar()">
+            <input type="button" class="btn-limpar" title="Clique para limpar" value="CE" onclick="limpar()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <input id="verificar" class="btn-result" type="button" title="Clique para calcular" value="=" onclick="calcular()"><br>
             <img src="/home/src/img/MasterDev.PNG" title="Desenvolvedor" onclick="git()" class="img-calc">
         </section>
-    </div>
-
+    </div><br><br>
+    <div type="number" contentEditable=true data-text="Resultado" name="resultado" id="resultado"></div> 
+    
     <script src="/home/src/js/calculadora.js" async defer></script>
 </body>
 
