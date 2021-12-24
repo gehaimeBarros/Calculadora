@@ -4,6 +4,7 @@ var operador;
 
 function limpar() {
     intro.value = ""
+    window.location.reload();
 }
 
 function numero(value) {

@@ -1,14 +1,32 @@
 html,
 body {
-    background-color: coral;
+    background-color: rgb(95, 8, 25);
 
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#resultado{
+    border: 1px solid white;
+    width: 200px;
+    height: 30px;
+    margin: auto;
 }
 
 #resultado {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
 }
 
+[contentEditable=true]:empty:not(:focus):before{
+    content:attr(data-text)
+}
 #intro {
     width: 189px;
     height: 28px;
@@ -18,11 +36,11 @@ body {
 }
 
 .super-calculator {
-    border: 3px solid black;
-    width: 14rem;
-    height: 344px;
+    border: 2px solid black;
+    width: 17rem;
+    height: 390px;
     text-align: center;
-    line-height: 39px;
+    line-height: 31px;
     margin: auto;
     border-radius: 4px;
     background-color: steelblue;
